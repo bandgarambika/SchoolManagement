@@ -1,0 +1,14 @@
+// JavaScript Document
+$(document).ready(function(){
+	
+//info tab start	
+$("#top").html('<div class="row"><div class="col col-md-3 box"><img class="mx-auto d-block" src="img/logo.png"><p>&nbsp;</p><h2 align="center">R.M.Dhariwal<br/>Sinhgad Spring Dale School</h2></div><div class="col col-md-9 imgback"></div></div>');
+//info tab End
+
+//main menu start
+$("#navmenu").html('<nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color:#3660b0;"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarWEX" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="navbar-collapse collapse" id="navbarWEX"><div class="nav flex-md-column justify-content-center"><h1><a class="nav-item nav-link active " href="index.html">Home</a></h1><h1><a href="branches.html" class="nav-item nav-link">Branches</a></h1><h1><a href="contactus.html" class="nav-item nav-link">Reach Us</a></h1><div class="footer" align="center"><ul class="list-inline"><li class="list-inline-item fb"><a href="https://www.facebook.com/SinhgadKarandak" target="_blank"><i class="fab fa-facebook"></i></a></li><li class="list-inline-item twit"><a href="https://twitter.com/sinhgadkarandak" target="_blank"><i class="fab fa-twitter-square"></i></a></li><li class="list-inline-item yout"><i class="fab fa-youtube-square"></i></li></ul></div></div></div></nav>');
+//main menu End
+
+$(".footer-bottom").html('<div class="col-12 col-md-12" align="center" style="margin-top:60px;"><ul class="list-inline"><li class="list-inline-item">Copyright&copy;2018. All Rights Reserved</li><li class="list-inline-item">Disclaimer</li><li class="list-inline-item">Stream</li><li class="list-inline-item">Contact US</li></ul></div>');
+
+});
